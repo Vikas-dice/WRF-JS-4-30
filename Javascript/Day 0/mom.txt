@@ -1,10 +1,10 @@
 Date -7th feb ,2024
 
 Syllabus 
-1-Js History 
-2- intro to Js
-3- variables
-4- conditionals ( if else else if switch ternary)
+1-Js History {done}
+2- intro to Js {done}
+3- variables {done}
+4- conditionals ( if else else if switch ternary) {done}
 5- operators (relational, logical, arithmatic , bitwise)
 6- loops ( for do while while )
 7- functions (inbuilt,customs)
