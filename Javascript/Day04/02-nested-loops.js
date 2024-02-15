@@ -47,5 +47,6 @@ while(i<=5){
         console.log("vikas",i,j)
     }
     console.log("dice")
+    i++;
 }
 console.log("academy")
