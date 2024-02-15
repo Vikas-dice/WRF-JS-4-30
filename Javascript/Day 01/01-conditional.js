@@ -33,3 +33,7 @@ if(age>=6 && age<=18){
  * 
  * 
  */
+
+let x="c"
+let y="vikas"
+

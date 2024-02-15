@@ -1,0 +1,55 @@
+Date 9th feb , 2024
+
+- js intro, histroy, variable, naming convention ,condiitonals(if else else if)
+
+** Compiler interpreter coding - system smjh m kese aati h
+-- variable and constants
+=- truthy and falsy 
+
+-----------------------------------------------------------------
+js the lang - prgramming lang - instruction/code - english -computer/system - 0-1 
+0-1 = current flow
+
+english code --[?Translator ]- convert 0-1 - machine smjh m aajaye
+ Translator- compiler or interpreter
+  english code - hll- compiler/interpreter - convert machine level code - 0-1 = current
+
+compiler - hll code/english - byte code - conversion process slow -
+byte code - machine code -01 - 01 code - chalega fast 
+
+
+interpreter - hhl code- english - convert - mc code - 01 - conversion - fast = machine code 01 ye slow chltaa h
+
+
+google - jit compiler - just in time compiler - mix of both compiler and interpreter
+
+phase 1 - conversion - hll-mc - interpreter
+phase 2 - mc code 01 - fast - compiler 
+
+----------------------------------------------------------------------------
+** variable and constants
+- var let const 
+
+-----------------------------------------------------------------------------
+
+** window
+
+
+-----------------------------------------
+truthy and falsy values
+js - falsy - undeifned null nan 0 "" document.all -0
+
+
+------------------------------------------------------
+Types of data - data types
+primitve and reference types
+
+
+
+
+
+
+
+
+
+

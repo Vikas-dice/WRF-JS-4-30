@@ -1,0 +1,68 @@
+Variables and Constant**
+- var a = 20;
+var b =a;
+const c=44;
+
+
+var dsicount =10
+dsicount=20
+
+const discount =22
+ -var and const are used to store data and var stores data and it can be changed .
+-const XX
+
+
+--------------------------------------------------------------------------
+
+interpreter and compiler-translator**
+-js lang - 0-1 -
+eng-translate - o-1 convert
+compiler- mc code - but slow converison rate -
+interpreter - byte code - not close to machine level- but fater converison
+byte again mc code .
+
+js has interpreter.
+java compiler based .
+//jit compiler - intiALY interpreter , RUNNING TIME compiler
+
+-------------------------------------------------------------------------
+WINDOW-collection of tools (alert, document,prompt)**
+-borrow from other 
+-there are many features which are frequenctly used in js and they are not part of js , but they are avilable in the broswer.they are called for the browser.
+- window ek bucket h jo brpowser deta h .
+-mix of js +broswer 
+-window object
+
+
+------------------------------------------------
+types**
+Data types - real world 
+string 
+integer number 
+float decimal
+true boolean
+null 
+undefined 
+
+a -character 
+ 2 types - primitive and reference types[],{},()
+
+ var a ; //undefined
+ var a =[]
+ var a ={}
+
+ -------------------------------------------
+ truthy and falsy values.
+ null undefined nan 0 "" document.avilable-
+ Boolean(null)
+
+ loops-repeat
+ ----------------------------------------------------------------
+ 
+
+
+
+
+
+
+
