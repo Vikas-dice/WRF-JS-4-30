@@ -1,0 +1,50 @@
+Date 21st feb , 2024
+
+Last Class - Loops , dry run, break , continue
+
+line 67-ram-i=3
+i<=7 3<=7 true
+l68 ram=j=1
+l69 j<=4 1<=4 true
+l70 vikas 3 1
+l71 j++ j=2
+j<=4 2<=4 true
+l70 vikas 3 2
+j++ j=3
+j<=4 3<=4 true
+vikas 3 3
+...j=5
+j<=4 5<=4 false
+l73 while. Loops
+
+i++ i=4
+..i=8
+i<=7 8<=7 false
+------------------------------------
+l76 using break statement:
+l77 ram=i=1
+l78 i<=5 1<=5 true
+l79 i==3 1==3 false
+l83 current i value ,1
+l84 i++ i=2
+;78 i<=5 2<=5 truel79 i==3 2==3false
+l83 c v of i,2
+l84 i++ i=3
+l78 i<=5 3
+>=5 true
+l79 i==3 3==3 true
+l80 b o a,3
+break; 
+l86 loop ended
+l87 
+l88 
+l89
+l90 using...
+l91 ram=j=1
+l92 j<=5 1<=5 truel93 j==3 1==3 false
+l98 c o j,1
+l99 j++ j=2
+j=3
+j<=5 3<=5 truel93 j==3 3==3 true
+j=4
+l96 continue
