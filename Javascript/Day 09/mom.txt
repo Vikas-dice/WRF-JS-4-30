@@ -1,0 +1,71 @@
+Date 29th feb , 2024
+
+Last Class - prime , prime in range , number reverse , odd even range 
+
+
+Count digits
+number print from front 
+functions 
+
+num =986756
+out put - 
+
+
+num=78678
+7
+8
+6
+7
+8
+
+
+-----------------------------------------------
+Functions - 
+
+step- butter
+step2- veggies  ///breakafast
+step3 - spices
+step4- eat
+step5- wash
+
+
+step1- butter
+step2- veggies  ///lunhc
+step3- spices
+step4- eat
+step5- wash
+
+
+
+step1- butter
+step2-veggies
+step3- spices
+step4- eat    //dinner
+step5 - wash
+
+
+
+
+
+
+function khanabnana(){
+    step- butter
+step2- veggies+ ///breakafast
+step3 - spices
+step4- eat
+step5- wash
+
+}
+khanabnana(); //breakafast
+khanabnana(); //lunch\
+khanabnana(); //dinner
+
+
+
+
+
+
+
+
+
+
