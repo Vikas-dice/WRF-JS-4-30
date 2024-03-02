@@ -1,0 +1,6 @@
+Date 2nd march , 2024
+
+Last Class - functions 
+
+fibonacii series 
+0 1 1 2 3 5 8 13 21 
