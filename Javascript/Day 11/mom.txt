@@ -1,0 +1,13 @@
+Date 6th march, 2024
+
+Last Class - functions , return , es6 , es5 
+
+--------------------
+
+l3- row=1
+row<=5 1<=5 true
+l4 ans=""
+l5 col=1
+col<=row 1<=1 true
+l6 ans = ans+col
+ans = ""+1="1"\
