@@ -19,3 +19,4 @@ for(let num=ll;num<=ul;num++){
         console.log("not prime",num);
     }
 }
+

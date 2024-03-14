@@ -1,0 +1,34 @@
+Date 8th march, 2024
+
+Last Class - loop ques, string , charcode etc
+
+
+l16 
+num=68756
+l10 num>0 68756>0 true
+l11 ld=68756%10=6
+ld=6
+l12 num=num/10 68756/10=6875
+l12 6
+num>0 6875>0 true
+l11 ld=num%10 6875%10=5
+l12 num=num/10 6875/10 687
+l13 5
+num>0 687>0 true
+ld=7
+num=num/10 687/10 68
+
+
+
+
+HOMEWORK 
+1-decimal to any base
+2- any base to decimal
+3- any base to any base 
+4- any base addition
+5- any base subtraction
+6- any base multiplication 
+
+
+
+
