@@ -1,0 +1,34 @@
+Date 15th march , 2024
+
+Last Class - function intro, es 5 , es6 , questions , return keyword 
+
+----------------------
+l67 
+l51 num=5678
+l52 temp=num=5678
+53 nod=0
+54 temp>0
+5678>0 true
+l55 temp=temp/10=5678/10=567
+56 nod= nod+1 = 0+1 =1
+54 temp>0 567>0 true
+55 temp=temp/10=567/10=56
+nod=nod+1 1+1=2
+54 temp>0 56>0 true
+55 temp=temp/10=56/10=5
+56 nod=nod+1 2+1=3
+54 temp>0 5>0 true
+55 temp=temp/10 5/10=0
+56 nod=nod+1 3+1=4
+54 temp>0 0>0 false
+58 div=10 power 4-1= 10 ki power 3=1000
+div=1000
+59 num>0 5678>0 true
+60 fd=num/div=5678/1000=5
+print 5
+62 rem = num%div 5678%1000=678
+num=rem, 678
+64 div=div/10=1000/10=100
+59 num>0 678>0 true
+fd=
+
