@@ -1,0 +1,34 @@
+Date 16th march , 2024
+
+Last Class - array intro, onject intro, this keyword , spread , array and object destructure .
+
+Inverse of a number - 
+rotate a number 
+
+67587, k =2
+58767
+
+67587 , k =-2
+87675
+
+
+
+
+67587 , k=2
+
+67587/1000 
+qt=67
+rem=587
+
+58700+67=58767
+
+
+string  - sequence of chars
+
+
+
+
+
+
+
+
