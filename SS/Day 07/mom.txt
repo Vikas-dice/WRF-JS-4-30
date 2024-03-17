@@ -1,0 +1,48 @@
+Date 17th march , 2024
+
+Last Class - string intro, question inverse number ,
+hw - number rotate , vowel find in a string 
+
+
+Number Rotate 
+
+
+ 746785 , k =2
+
+ 857467
+
+
+ k=-2
+
+678574
+
+
+
+767845 k =3
+
+745678/100 
+qt= 7456
+rem= 78
+
+rem*1000+qt
+78*1000+7456
+787456
+
+
+
+
+
+
+
+89567 k=2
+
+89567
+
+qt=56789/100= 567
+rem=89
+
+89000+567=89567
+
+rem*1000+qt
+
+
