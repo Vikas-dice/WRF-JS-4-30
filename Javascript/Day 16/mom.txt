@@ -1,0 +1,113 @@
+Date 20th march, 2024
+
+Last Class - questions bruteforce
+
+q1 - number rotate
+
+756878 , k =2
+
+787568
+
+
+k=-3
+
+878756
+
+qt= 7875
+rem=78
+
+78*1000+7875= 787568
+
+k=-2 687875
+qt=75
+rem=6878
+
+rot= rem*100+75
+
+k=2 10 ki power 2 =100
+mult = 10 ki power nod-ki
+
+-----------------------------------------
+l2 num=786745
+l3 k=2
+l4 nod=0
+l5 temp=786745
+l6 temp!=0 786745!=0 true
+l7 temp=78674
+l8 nod=nod+1 0+1=1
+l6 temp!=0 78674!=0 true
+l7 temp=7867
+l8 nod=nod+1 1+1=2
+l6 temp!=0 7867!-0 true
+....
+
+
+
+nod=6
+
+l10 div=1
+l11 mult=1
+l12 i=1 i<=nod 1<=6 true
+l13 i<=k 1<=2 truel14 div=div*10 1*10=10
+l12 i++ i=2
+i<=nod 2<=6 true
+;13 i<=k 2<=2 true
+div=div*10 10*10=100
+l12 i++ i=3
+i<=nod 3<=6 true
+l13 i<=k 3<=2 false
+else{
+    mult=mult*10 1*10=10
+
+}
+l12 i++ i=4
+i<=nod 4<=nod true
+l13 i<=k 4<=2 false
+else{
+    mult= 10*10=100
+}
+l12 i++ i=5
+i<=nod 5<=6 true
+l13 i<=k 5<=3 false
+else{
+    mult=100*10=1000
+}
+l12 i++ i=6
+i<=nod 6<=6 true
+l13 i<=k 6<=2 false
+else{
+    mult=1000*10=10000
+}
+l12 i++ i=7
+i<=nod 7<=6 false
+
+l20 rot=0
+qt=num/100 = 787645/100 = 7876
+l22 rem=786745%100 =45
+l23 rot=45*10000+7876
+457876
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+756878 , k =-2 ,k=4
+k=14
+
+
+
+
+
+armstrong number
+153 = 1 ki power 3 + 5 ki pwer 3 + 3 ki pwoer 3 =153
