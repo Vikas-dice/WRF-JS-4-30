@@ -1,0 +1,39 @@
+Date 21st march , 2024
+
+Last Class - number rotation , armstrong number
+
+-----------------------------------
+
+l13  prompt 153
+num=153
+l14 sum=0
+l15 temp=153
+l16 nod=0;
+
+l18 temp2=153
+l19 temp!=0 153!=0 true
+l20 tempt2=15
+nod++ nod=0+1=1
+l19 temp2!=0 15!-0 true
+temp2=1
+nod++ nod=2
+l19 temp2!=0 1!=0 true
+l20 temp2=0
+nod++ nod=3
+l19 temp2!=0 0!+0 false
+l27 temp!=0 153!=0 true
+l28 ld=3
+temp=temp/10 15
+sum=sum+ld ki powewr 3
+0+27=27
+l27 temp!=0 15!=0 truel28 ld=7
+temp=1
+sum=27+ 7 ki power 3==--999
+l27 ....
+
+
+l39 sum==num
+4646==153
+
+
+
