@@ -1,0 +1,8 @@
+Date 27th march , 2024
+
+Last Class -Array Intro , logical questions (odd even , prime , armstrong)
+
+- array details
+-rest and spread operator 
+-array methods 
+
