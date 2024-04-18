@@ -1,0 +1,10 @@
+Date 31st march , 2024
+
+Last Class - array map filter reduce 
+
+-Objects
+-accessing the Objects dot []
+-property naming limitations
+-for in loop in Objects
+-refrence type - address pass
+- cloning merge Objects

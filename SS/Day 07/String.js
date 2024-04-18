@@ -100,3 +100,50 @@ console.log(slicedstr);
 
 
 
+
+// let vowels ="aeiou";
+// let name11="vikas chaudhary"
+
+
+// if(name11.includes(vowels[i])){
+//     console.log();
+// }
+
+
+// let  name11 ="Ravi Shankar Singh ";
+// let  vowel="a e i o u";
+// let  countv=0;
+// let countc=0;
+// for(let i=0; i < name11.length; i++){
+//         let count =0;
+//         let  ans =name11[i]
+//         if(vowel.includes(ans)){
+//                 console.log(name11[i], "Its is Vowels");
+//                 countv++
+//         }else{
+//             console.log(name11[i],"Its is  Not Vowels");
+//             countc++
+//         }
+
+// }
+// console.log(countv, countc);
+
+
+let nam = 'klaus';
+let vowels = 'AEIOU';
+
+for (let i = 0; i < nam.length; i++) {
+    let a = nam[i];
+    let isVowel = false;
+
+    for (let j = 0; j < vowels.length; j++) {
+        if (a === vowels[j]) {
+            isVowel = true;
+            break;
+        }
+    }
+
+    if (isVowel) {
+        console.log(a);
+    }
+}
