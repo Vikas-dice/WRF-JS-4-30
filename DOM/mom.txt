@@ -1,0 +1,20 @@
+DOM =Document object model
+
+
+dom tree 
+
+1- selectors
+
+2- html selectors
+1-id ,class, tagname
+2- dom selectors
+query
+queryselectorall
+
+
+id
+classname
+
+tagname
+
+dom selectors-queryselector,queryselectorall
