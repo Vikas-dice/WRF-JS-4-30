@@ -107,7 +107,7 @@
 // root.appendChild(para);
 
 // let h3=document.createElement("p");
-// h3.innerText="puneet chaudhart"
+// h3.innerText="puneet chaudhary"
 // h3.innerHTML="<span>hello world </span>"
 // root.prepend(h3);
 

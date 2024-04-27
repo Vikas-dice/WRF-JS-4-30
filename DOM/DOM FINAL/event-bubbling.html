@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            height: 300px;
+            width: 300px;
+            background-color: red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .child{
+            height: 100px;
+            width: 100px;
+            background-color: green;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent" id="parent">
+        <div class="child" id="child">
+            <button id="btn">click me </button>
+        </div>
+    </div>
+
+    <Script>
+        let parent=document.getElementById("parent")
+        let child=document.getElementById("child")
+        let button =document.getElementById("btn");
+
+        button.addEventListener("click",function(event){
+            event.stopPropagation()
+            console.log(" i am button");
+        },false)
+        child.addEventListener("click",function(event){
+            event.stopPropagation()
+            console.log(" i am child");
+        },false)
+        parent.addEventListener("click",function(event){
+            event.stopPropagation()
+            console.log(" i am parent");
+        },false)
+    </Script>
+    
+</body>
+</html>

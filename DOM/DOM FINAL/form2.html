@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form">
+        <input type="text" placeholder="fname" id="fname">
+        <input type="text" placeholder="lname" id="lname">
+        <input type="text" placeholder="age" id="age">
+        <input type="text" placeholder="salary" id="salary">
+        <input type="submit">
+    </form>
+
+    <script>
+        let form=document.getElementById("form");
+        form.addEventListener("submit",function(event){
+            event.preventDefault()
+            console.log(" i am form submitted");
+            // console.log(event.target);
+            // for(let elt of event.target){
+            //     console.log(elt.value);
+            // }
+            // for(const elt of document.forms[0]){
+            //     console.log(elt.value);
+            // }
+
+            // for(const elt of document.forms['form']){
+            //     console.log(elt.value);
+            // }
+
+            // for(let idx=0;idx<form.length;idx++){
+            //     console.log(form[idx].value)
+            // }
+            for(const elt of document.forms[0]){
+                elt.addEventListener("focus",function(event){
+                    console.log(elt.value);
+                    console.log(" i am focus event");
+                })
+            }
+        })
+    </script>
+    
+</body>
+</html>
