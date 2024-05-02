@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red{
+            color: red;
+            background-color: red;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+        }
+        .green{
+            color: green;
+            background-color: green;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+          
+        }
+        .yellow{
+            color: yellow;
+            background-color: yellow;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="root">
+  
+
+
+    </div>
+
+    <script>
+        let root = document.getElementById("root");
+        let div1= document.createElement("div");
+        let div2= document.createElement("div")
+        let div3= document.createElement("div")
+        // div1.innerText="red";
+        // div2.innerText="green";
+        // div3.innerText="yellow";
+        // div1.className="red";
+        // div2.className="green"
+        // div3.className="yellow"
+       
+        // root.append(div2)
+        // root.append(div3)
+setTimeout(() => {
+    setInterval(function blink()  {
+            div1.className="red";
+            root.append(div1);
+            div2.className="";
+            div3.className="";
+         
+            
+            
+        }, 2000);
+        setInterval(function blink()  {
+            div2.className="yellow";
+            root.append(div3);
+            div1.className="";
+            div3.className="";
+           
+            
+            
+        }, 3000);
+        
+        setInterval(function blink()  {
+            div3.className="green";
+            root.append(div2);
+            div1.className="";
+            div2.className="";
+            
+            
+            
+        }, 4000);
+    
+}, 10000);
+        
+        
+        
+
+
+
+    </script>
+    
+</body>
+</html>

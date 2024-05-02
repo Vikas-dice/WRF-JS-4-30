@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>music player by wtf 430</h1>
+    <button class="drum">music1</button>
+    <button  class="drum">music2</button>
+    <button  class="drum">music3</button>
+    <button  class="drum">music4</button>
+    <button  class="drum">music5</button>
+    <button  class="drum">music6</button>
+    <button  class="drum">music7</button>
+    <button class="drum">default</button>
+    <button id="pause">pause</button>
+
+
+
+   
+
+    <script>
+let pausebutton=document.getElementById("pause");
+        let buttons= document.querySelectorAll(".drum");
+        // console.log(buttons);
+        for(let idx=0;idx<buttons.length;idx++){
+            // console.log(buttons[idx]);
+            buttons[idx].addEventListener("click",function(){
+                console.log(buttons[idx]);
+                let innerhtml = buttons[idx].innerText;
+                // console.log(andrkalikhahuamaal);
+                playmusic(innerhtml)
+
+
+            })
+        }
+
+        function playmusic(innerhtml){
+            let audio;
+            switch(innerhtml){
+                case "music1":
+                    var music1= new Audio("sounds/crash.mp3")
+                    music1.play()
+                    break;
+                case "music2":
+                    var music2 = new Audio("sounds/kick-bass.mp3")
+                    music2.play()
+                    break;
+                case "music3":
+                    var music3= new Audio("sounds/moyemoyeshort.mp3")
+                    music3.play();
+                    stopmusic(innerhtml)
+                    // setTimeout(() => {
+                    //     music3.pause()
+                        
+                    // }, 3000);
+                    break;
+                case "music4":
+                    var music4= new Audio("sounds/snare.mp3")
+                    music4.play()
+                  
+                    break;
+                case "music5":
+                    var music5= new Audio("sounds/tom-1.mp3")
+                    music5.play();
+                    break;
+                case "music6": 
+                var music6= new Audio("sounds/tom-2.mp3")
+                music6.play();
+                break;
+                case "music7":
+                    var music7 = new Audio("sounds/tom-3.mp3")
+                    music7.play()
+                    break;
+                default:
+                  
+                    var random = new Audio("sounds/moyemoye.mp3")
+                    random.play();
+                    setTimeout(() => {
+                        random.pause()
+                        
+                    }, 4000);
+            
+            }
+
+        }
+        function stopmusic(innerhtml){
+            if(innerhtml==="music3"){
+                setTimeout(() => {
+                    innerhtml.pause();
+                    
+                }, 1000);
+            }
+
+        }
+        
+
+
+
+   
+
+pausebutton.addEventListener("click",function(innerhtml){
+    if(innerhtml==="music3"){
+        stopmusic(innerhtml);
+
+    }
+   
+
+})
+        
+   
+
+        </script>
+    
+</body>
+</html>
